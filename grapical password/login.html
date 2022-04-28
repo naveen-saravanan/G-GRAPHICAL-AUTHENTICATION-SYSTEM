@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title>Login</title>
+    <link rel="stylesheet" href="include/gpl_styles.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js" data-dojo-config="isDebug: true, parseOnLoad: true"></script> -->
+    <script src="include/dojo.js" data-dojo-config="isDebug: true, parseOnLoad: true"></script>
+    <script type="text/javascript" src="include/gpl_scripts.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="include/bootstrap/css/bootstrap.min.css">
+	
+	<script>
+function showhide() {
+  var div = document.getElementById('newpost');
+  div.classList.toggle('hidden');
+  }
+ </script>
+ 
+	<style>
+	body{
+				background-image:url("images/bg1.png");
+				
+				//background-repeat: no-repeat;
+
+				background-attachment: fixed;
+
+				background-size:100% 100%;
+			}
+			
+			 .hidden{display: none;}
+			 .cans{background-color: #B428D6;}
+		
+	</style>
+</head>
+<body >
+   
+					<br>
+					<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGIN</h1>
+						
+					
+                    <table align="right"  bgcolor="whitesmoke" cellpadding="5"cellspacing="5" font-size: 15px; style=" margin:100px 100px;" border="2" >
+						
+						<tr>
+                            <td><label for="userId" class="userLabel"> Username: </label></td>
+                            <td><input type="text" id="userId" /></td>
+                        </tr>    
+							
+						<tr>	
+						
+							 <td><label class="userLabel"> Password: </label></td>
+							<td>
+                                <div id="curPass"></div>
+                            </td>
+							
+							<td>
+                                <button onclick="login();" title="graphical keyboard">
+                                    <img src="images/key.jpg" class="btnClass" />
+                                </button>
+                            </td>
+                        </tr>
+						
+						<tr>
+						
+						<td></td>
+						<td>
+								
+                                <button onclick="login();" type="submit" title="verify password">
+                                    
+									<img src="images/password.png" class="btnClass" />
+                                </button>
+								
+								<!-- <input type="submit" name="img src="images/password.png" class="btnClass value="naveen/file storing.php";"> </input> -->
+								
+                            </td>
+                           <td><img id="result" src=""  style="visibility: hidden"> </td>
+						   
+						</tr>
+                    </table>
+				
+					
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							
+							
+                  
+                    
+				 <table align="center"  id="imageTable"  style="visibility: hidden; margin-right:150px;"  border="2" bgcolor="SlateBlue">
+                        <tr>
+                            <td colspan="2" align="center" style="padding: 5px;">
+                                <a href="javascript:regClick(1)">
+                                    <img id="image1"
+                                         src=""
+                                         class="imgClass" />
+                                </a>
+                            </td>
+                            <td colspan="2" align="center" style="padding: 5px;">
+                                <a href="javascript:regClick(2)">
+                                    <img id="image2"
+                                         src=""
+                                         class="imgClass" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center" style="padding: 5px;">
+                                <a href="javascript:regClick(3)">
+                                    <img id="image3"
+                                         src=""
+                                         class="imgClass" />
+                                </a>
+                            </td>
+                            <td colspan="2" align="center" style="padding: 5px;">
+                                <a href="javascript:regClick(4)">
+                                    <img id="image4"
+                                         src=""
+                                         class="imgClass" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center">
+                                <button onClick="setStage(stage);" title="Refresh images">
+                                    <img src="images/refresh.png"
+                                         class="btnClass" />
+                                </button>
+                                <button onClick="setStage(0);" title="Reset"><img src="images/cancel.png" class="btnClass"/></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+			<br>
+					
+            <div name="right_column" class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+        
+                
+
+				<button class="ans" id="button" onclick="showhide()" >Need more help logging on?</button>
+
+				<div id="newpost"  class="hidden cans"><p style="color:white"  font-align="center">
+                    Enter the Username and click on the "Keyboard" icon. <br> Click on ANY image where you see the first character of your password (it can be a color, or a number, or a form).<br> After that, click on ANY picture where you see the second character and so on.When the password input will be finished click the 'key' button.
+                </p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

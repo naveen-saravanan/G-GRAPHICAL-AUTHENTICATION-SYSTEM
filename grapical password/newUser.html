@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up</title>
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet" href="include/gpl_styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+    <script src="include/dojo.js" data-dojo-config="isDebug: true, parseOnLoad: true"></script>
+    <script type="text/javascript" src="include/gpl_scripts.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="include/bootstrap/css/bootstrap.min.css">
+	
+	
+		<script>
+function showhide() {
+  var div = document.getElementById('newpost');
+  div.classList.toggle('hidden');
+  }
+ </script>
+ 
+ <style>
+ 
+				
+			  body{
+				background-image:url("images/bg2.png");
+				
+				//background-repeat: no-repeat;
+
+				background-attachment: fixed;
+
+				background-size:100% 100%;
+			}
+			
+			 .hidden{display: none;}
+			 .cans{background-color: #B428D6;}
+			 
+			
+		
+	</style>
+</head>
+
+<body>
+    <div class="container">
+        <div name="middle_row" class="row">
+            <div name="left_column" class="col-sm-0 col-md-0 col-lg-2"></div>
+            <div name="centre_column" id="mainDiv" class="col-sm-12 col-md-12 col-lg-8">
+                 
+					<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SIGN UP</h1>
+<br>
+<br>
+				 <table  align="left"  style=" margin-left:-270px;" valign="middle"    border="0">
+                    <tr>
+                        <td><label for="userId" class="userLabel">Username:</label></td>
+                        <td><input type="text" id="userId" /></td>
+                        <td>
+                            <div id="enteredPass"></div>
+                        </td>
+                        <td>
+                            <button onclick="enterPass();" title="Enter the password">
+                                <img src="images/password.png" class="btnClass" />
+                            </button>
+                        </td>
+                        <td>
+                            <button onclick="saveUser();" title="Save or update username">
+                                <img src="images/save_button.png" class="btnClass" />
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+				<br>
+				<br>
+				<br>
+				<br>
+                <table id="passTable" style=" margin-left:-155px;" align="center"   border="2">
+                    <tr>
+                        <td>
+                            <button onclick="add2pass(1);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=1" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(2);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=2" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(3);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=3" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(4);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=4" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(5);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=5" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(6);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=6" /></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="add2pass(7);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=7" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(8);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=8" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(9);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=9" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(10);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=10" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(11);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=11" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(12);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=12" /></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="add2pass(13);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=13" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(14);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=14" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(15);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=15" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(16);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=16" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(17);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=17" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(18);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=18" /></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="add2pass(19);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=19" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(20);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=20" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(21);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=21" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(22);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=22" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(23);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=23" /></button>
+                        </td>
+                        <td>
+                            <button onclick="add2pass(24);"><img class="imgBtnClass" src="gplProcessor.php?t=p&amp;n=24" /></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" align="center">
+                            <button onclick="refreshImages();" title="Refresh">
+                                <img class="btnClass" src="images/refresh.png" />
+                            </button>
+                            <button onclick="backLast();" title="Delete the last character of the password">
+                                <img class="btnClass"
+                                     src="images/back.png" />
+                            </button>
+                            <button onclick="setNewUserStage(0);" title="Clear password">
+                                <img class="btnClass"
+                                     src="images/cancel.png" />
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+				<br>
+				<br>
+				<br>
+            </div>
+            <div name="right_column" class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+        <div name="top_row" class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                
+				
+				
+				<button class="ans" id="button" onclick="showhide()" align="right" style=" margin-left:-130px;">Need more help logging on?</button>
+
+				<div id="newpost"  class="hidden cans">
+				<p style="color:white"  font-align="center">
+                     Enter the desired username and password. <br> The password can consist of numbers (0-9), colors (red, green, purple ...) and shapes (triangle, square, circle ...). <br> Password example: "1" "Green" "Circle" "4". <br> You can use only numbers or colors and shapes in your password; any combination you want.
+                </p></div>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

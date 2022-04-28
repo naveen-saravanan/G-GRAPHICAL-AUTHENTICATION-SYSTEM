@@ -1,0 +1,51 @@
+.imgClass {
+    height: 50px;
+    width: 150px;
+}
+
+.btnClass {
+    height: 50px;
+    width: 50px;
+}
+
+.imgBtnClass {
+    height: 50px;
+    width: 50px;
+}
+
+.userLabel {
+    font-size: x-large;
+    font-style: oblique;
+}
+
+#curPass {
+    font-size: x-large;
+    font-style: oblique;
+}
+
+#userId {
+    width: 250px;
+    height: 50px;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+
+#result {
+    width: 50px;
+    height: 50px;
+}
+
+#mainDiv {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.customDiv {
+    min-height:10px;
+    background-color:white;
+    text-align: center;
+    margin:5px;
+}
